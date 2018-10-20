@@ -1,0 +1,24 @@
+ Reads consecutive values of x and adds the values to a series.
+ Enter your value of x. (0 to stop)
+2
+ x:     2.00000    Sum:    0.864665    loop count:          43
+ Enter your value of x. (0 to stop)
+8
+ x:     8.00000    Sum:    0.999651    loop count:          73
+ Enter your value of x. (0 to stop)
+20
+ x:     20.0000    Sum:     1.24332    loop count:         115
+ Enter your value of x. (0 to stop)
+70
+ x:     70.0000    Sum:   -3.202472E+21loop count:         263
+ Enter your value of x. (0 to stop)
+1
+ x:     1.00000    Sum:    0.632120    loop count:          35
+ Enter your value of x. (0 to stop)
+3
+ x:     3.00000    Sum:    0.950213    loop count:          49
+ Enter your value of x. (0 to stop)
+55
+ x:     55.0000    Sum:   -6.463224E+14loop count:         221
+ Enter your value of x. (0 to stop)
+0

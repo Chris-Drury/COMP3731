@@ -1,0 +1,37 @@
+ Please enter a b. (To stop enter 0 0)
+1260 198
+ quotient:            6 remainder:           72
+      198.000         72.0000
+ quotient:            2 remainder:           54
+      72.0000         54.0000
+ quotient:            1 remainder:           18
+      54.0000         18.0000
+ quotient:            3 remainder:            0
+      18.0000         0.00000
+ The GCD is:     18.0000
+ Please enter a b. (To stop enter 0 0)
+198 1260
+ quotient:            6 remainder:           72
+      198.000         72.0000
+ quotient:            2 remainder:           54
+      72.0000         54.0000
+ quotient:            1 remainder:           18
+      54.0000         18.0000
+ quotient:            3 remainder:            0
+      18.0000         0.00000
+ The GCD is:     18.0000
+ Please enter a b. (To stop enter 0 0)
+123 0
+ The GCD is:     123.000
+ Please enter a b. (To stop enter 0 0)
+0 26
+ The GCD is:     26.0000
+ Please enter a b. (To stop enter 0 0)
+100 25
+ quotient:            4 remainder:            0
+      25.0000         0.00000
+ The GCD is:     25.0000
+ Please enter a b. (To stop enter 0 0)
+0 0
+
+Press RETURN to close window...

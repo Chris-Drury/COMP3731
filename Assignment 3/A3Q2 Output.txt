@@ -1,0 +1,37 @@
+ Attempts to solve f(x) = x^2-2x-1 for f(x)=0 using the secant method.
+ Precision:    1.000000E-03loop limit:          50
+ Enter your values for a and b. (enter 0 0 to stop)
+2 3
+ root:     2.41421    iterations:           4
+ Enter your values for a and b. (enter 0 0 to stop)
+3 4
+ root:     2.41421    iterations:           5
+ Enter your values for a and b. (enter 0 0 to stop)
+0 4
+ root:   -0.414214    iterations:          12
+ Enter your values for a and b. (enter 0 0 to stop)
+-1 0
+ root:   -0.414211    iterations:           4
+ Enter your values for a and b. (enter 0 0 to stop)
+-2 2
+ root:     2.41421    iterations:           6
+ Enter your values for a and b. (enter 0 0 to stop)
+4 6
+ root:     2.41421    iterations:           6
+ Enter your values for a and b. (enter 0 0 to stop)
+0 .1
+ root:   -0.414221    iterations:           4
+ Enter your values for a and b. (enter 0 0 to stop)
+.1 .01
+ root:   -0.414219    iterations:           4
+ Enter your values for a and b. (enter 0 0 to stop)
+-1 4
+ root:   -0.414214    iterations:          12
+ Enter your values for a and b. (enter 0 0 to stop)
+0 4
+ root:   -0.414214    iterations:          12
+ Enter your values for a and b. (enter 0 0 to stop)
+.5 1
+ root:   -0.414213    iterations:           8
+ Enter your values for a and b. (enter 0 0 to stop)
+0 0

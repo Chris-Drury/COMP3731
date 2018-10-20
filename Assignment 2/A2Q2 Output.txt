@@ -1,0 +1,63 @@
+ Approximates the square root of a to a default precision of:    1.000000E-03
+ Enter a (Enter a negative value to stop.)
+25
+      12.5000         7.25000
+      7.25000         5.34914
+      5.34914         5.01139
+      5.01139         5.00001
+      5.00001         5.00000
+ a:     25.0000     sqrt(a):     5.00000
+ Enter a (Enter a negative value to stop.)
+2
+      1.00000         1.50000
+      1.50000         1.41667
+      1.41667         1.41422
+      1.41422         1.41421
+ a:     2.00000     sqrt(a):     1.41421
+ Enter a (Enter a negative value to stop.)
+9
+      4.50000         3.25000
+      3.25000         3.00962
+      3.00962         3.00002
+      3.00002         3.00000
+ a:     9.00000     sqrt(a):     3.00000
+ Enter a (Enter a negative value to stop.)
+81
+      40.5000         21.2500
+      21.2500         12.5309
+      12.5309         9.49746
+      9.49746         9.01303
+      9.01303         9.00001
+      9.00001         9.00000
+ a:     81.0000     sqrt(a):     9.00000
+ Enter a (Enter a negative value to stop.)
+122
+      61.0000         31.5000
+      31.5000         17.6865
+      17.6865         12.2922
+      12.2922         11.1086
+      11.1086         11.0455
+      11.0455         11.0454
+ a:     122.000     sqrt(a):     11.0454
+ Enter a (Enter a negative value to stop.)
+124
+      62.0000         32.0000
+      32.0000         17.9375
+      17.9375         12.4252
+      12.4252         11.2025
+      11.2025         11.1357
+      11.1357         11.1355
+ a:     124.000     sqrt(a):     11.1355
+ Enter a (Enter a negative value to stop.)
+121
+      60.5000         31.2500
+      31.2500         17.5610
+      17.5610         12.2256
+      12.2256         11.0614
+      11.0614         11.0002
+      11.0002         11.0000
+ a:     121.000     sqrt(a):     11.0000
+ Enter a (Enter a negative value to stop.)
+-2
+
+Press RETURN to close window...

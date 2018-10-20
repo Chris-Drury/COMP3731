@@ -1,0 +1,81 @@
+ Solves for all intervals that do not overlap. will merge overlapping intervals.
+ Input the size of arrays X and Y (0 to stop)
+2
+ Please enter the values for X
+0 5
+ Please enter the values for Y
+8 10
+ Input:
+ X:           0           5
+ Y:           8          10
+ Output:
+(  0 , 10 )
+ Numbr of intervals:           1
+ Input the size of arrays X and Y (0 to stop)
+2
+ Please enter the values for X
+0 5
+ Please enter the values for Y
+4 10
+ Input:
+ X:           0           5
+ Y:           4          10
+ Output:
+(  0 ,  4 )
+(  5 , 10 )
+ Numbr of intervals:           2
+ Input the size of arrays X and Y (0 to stop)
+3
+ Please enter the values for X
+0 10 20
+ Please enter the values for Y
+6 15 25
+ Input:
+ X:           0          10          20
+ Y:           6          15          25
+ Output:
+(  0 ,  6 )
+( 10 , 15 )
+( 20 , 25 )
+ Numbr of intervals:           3
+ Input the size of arrays X and Y (0 to stop)
+4
+ Please enter the values for X
+0 10 4 20
+ Please enter the values for Y
+6 18 7 25
+ Input:
+ X:           0          10           4          20
+ Y:           6          18           7          25
+ Output:
+(  0 ,  7 )
+( 10 , 18 )
+( 20 , 25 )
+ Numbr of intervals:           3
+ Input the size of arrays X and Y (0 to stop)
+5
+ Please enter the values for X
+0 10 4 20 -8
+ Please enter the values for Y
+6 48 7 50 5
+ Input:
+ X:           0          10           4          20          -8
+ Y:           6          48           7          50           5
+ Output:
+( -8 ,  7 )
+( 10 , 50 )
+ Numbr of intervals:           2
+ Input the size of arrays X and Y (0 to stop)
+3
+ Please enter the values for X
+0 5 20
+ Please enter the values for Y
+21 8 25
+ Input:
+ X:           0           5          20
+ Y:          21           8          25
+ Output:
+(  0 , 25 )
+ Numbr of intervals:           1
+ Input the size of arrays X and Y (0 to stop)
+0

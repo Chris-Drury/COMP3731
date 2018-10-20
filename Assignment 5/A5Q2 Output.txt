@@ -1,0 +1,56 @@
+ This program reads a matrix A,determines if it is a block matrix, and if so, returns the sizes of each block.
+ Input the size of A (0 to stop)
+2
+ Please enter matrix A:
+0 0
+0 0
+ Array A accepted.
+ A is not a block matrix
+ Input the size of A (0 to stop)
+2
+ Please enter matrix A:
+1 0
+0 0
+ Array A accepted.
+ number of blocks:           1
+ block sizes are:           1
+ Input the size of A (0 to stop)
+2
+ Please enter matrix A:
+1 1
+0 1
+ Array A accepted.
+ A is not a block matrix
+ Input the size of A (0 to stop)
+4
+ Please enter matrix A:
+1 0 0 0
+0 1 1 0
+0 1 1 0
+0 0 0 0
+ Array A accepted.
+ number of blocks:           2
+ block sizes are:           1           2
+ Input the size of A (0 to stop)
+5
+ Please enter matrix A:
+1 1 0 0 0
+1 1 0 0 0
+0 0 1 1 0
+0 0 1 1 1
+0 0 1 1 1
+ Array A accepted.
+ A is not a block matrix
+ Input the size of A (0 to stop)
+5
+ Please enter matrix A:
+1 1 0 0 0
+1 1 0 0 0
+0 0 1 1 0
+0 0 1 1 0
+0 0 0 0 1
+ Array A accepted.
+ number of blocks:           3
+ block sizes are:           2           2           1
+ Input the size of A (0 to stop)
+0

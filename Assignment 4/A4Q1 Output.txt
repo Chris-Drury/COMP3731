@@ -1,0 +1,45 @@
+ Finds the number of weakly increasing/decreasing sequences given the specified array.
+ Enter the size of the array: k (or 0 to stop).
+8
+ enter the values of all  8 elements
+1 1 3 5 5 4 2 3
+ accepted:     1    1    3    5    5    4    2    3
+ result:            3
+ Enter the size of the array: k (or 0 to stop).
+8
+ enter the values of all  8 elements
+1 1 3 5 4 2 3 0
+ accepted:     1    1    3    5    4    2    3    0
+ result:            4
+ Enter the size of the array: k (or 0 to stop).
+1
+ enter the values of all  1 elements
+2
+ accepted:     2
+ result:            0
+ Enter the size of the array: k (or 0 to stop).
+7
+ enter the values of all  7 elements
+0 0 0 0 0 0 0
+ accepted:     0    0    0    0    0    0    0
+ result:            0
+ Enter the size of the array: k (or 0 to stop).
+5
+ enter the values of all  5 elements
+1 2 3 4 5
+ accepted:     1    2    3    4    5
+ result:            1
+ Enter the size of the array: k (or 0 to stop).
+3
+ enter the values of all  3 elements
+0 0 0
+ accepted:     0    0    0
+ result:            0
+ Enter the size of the array: k (or 0 to stop).
+5
+ enter the values of all  5 elements
+1 3 2 5 0
+ accepted:     1    3    2    5    0
+ result:            4
+ Enter the size of the array: k (or 0 to stop).
+0

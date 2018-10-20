@@ -1,0 +1,64 @@
+ Finds the number of non-negative number groups ('blobs') in the given 2D array.
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+3 3
+ Enter the values for the array A with dimenstions:   3  3
+0 1 2 0 0 4 2 0 5
+         0    0    2
+         1    0    0
+         2    4    5
+     2 blobs for the Array:
+         0    0   -1
+        -2    0    0
+        -2   -2   -2
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+4 4
+ Enter the values for the array A with dimenstions:   4  4
+0 0 3 0 3 5 0 7 0 8 0 1 2 0 0 0
+         0    3    0    2
+         0    5    8    0
+         3    0    0    0
+         0    7    1    0
+     4 blobs for the Array:
+         0   -1    0   -2
+         0   -1   -1    0
+        -3    0    0    0
+         0   -4   -4    0
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+6 6
+ Enter the values for the array A with dimenstions:   6  6
+1 2 3 4 6 0 0 0 0 3 4 0 1 2 0 0 0 0 4 5 6 7 9 0 0 0 0 0 0 0 1 2 3 0 0 0
+         1    0    1    4    0    1
+         2    0    2    5    0    2
+         3    0    0    6    0    3
+         4    3    0    7    0    0
+         6    4    0    9    0    0
+         0    0    0    0    0    0
+     3 blobs for the Array:
+        -1    0   -2   -2    0   -3
+        -1    0   -2   -2    0   -3
+        -1    0    0   -2    0   -3
+        -1   -1    0   -2    0    0
+        -1   -1    0   -2    0    0
+         0    0    0    0    0    0
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+2 2
+ Enter the values for the array A with dimenstions:   2  2
+0 0 0 0
+         0    0
+         0    0
+     0 blobs for the Array:
+         0    0
+         0    0
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+3 7
+ Enter the values for the array A with dimenstions:   3  7
+1 2 3 0 0 3 0 2 0 1 2 3 0 0 0 5 0 0 0 2 0 4 0 1 0 5 1
+         1    0    0    1    0    5    0
+         2    0    2    2    0    0    2
+         3    3    0    3    0    0    0
+     4 blobs for the Array:
+        -1    0    0   -2    0   -3    0
+        -1    0   -2   -2    0    0   -4
+        -1   -1    0   -2    0    0    0
+ Enter the dimensions m, n of the array. (enter a 0 for either value to stop)
+0 9
