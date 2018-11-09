@@ -1,0 +1,35 @@
+ This program determines the GCD of each two elements in a sequence, in order
+ Enter the size of the integer sequence (0 to stop)
+2
+ Please enter the integer sequence:
+1260 198
+ GCDs:
+           18
+ Enter the size of the integer sequence (0 to stop)
+3
+ Please enter the integer sequence:
+1260 198 0
+ GCDs:
+           18
+          198
+ Enter the size of the integer sequence (0 to stop)
+4
+ Please enter the integer sequence:
+1260 198 0 100
+ GCDs:
+           18
+          198
+          100
+ Enter the size of the integer sequence (0 to stop)
+5
+ Please enter the integer sequence:
+1260 198 0 100 25
+ GCDs:
+           18
+          198
+          100
+           25
+ Enter the size of the integer sequence (0 to stop)
+0
+
+Press RETURN to close window...
