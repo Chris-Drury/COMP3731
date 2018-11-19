@@ -46,4 +46,17 @@
             0           2           7           7           3
  The shortest path from    1  to    3  is:     7
  Please enter the size of the array A[1:n,1:n] as n: (0 to stop)
+4
+ Please enter the data for A:
+0 0 0 0
+0 0 3 2
+0 3 0 6
+0 2 6 0
+ Now please enter the starting and ending points (m and k respectively)
+1 4
+ Calculating... B will be printed at each step.
+            0          23          23          23
+            0          23          23          23
+ There exists no path from    1  to    4
+ Please enter the size of the array A[1:n,1:n] as n: (0 to stop)
 0
