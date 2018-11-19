@@ -1,0 +1,19 @@
+ This program take an integer input and returns the number of decimal digits in the integer
+ Please enter the value of i (0 to stop)
+42
+ The String:  42
+ The number of decimal digits:           2
+ Please enter the value of i (0 to stop)
+153
+ The String:  153
+ The number of decimal digits:           3
+ Please enter the value of i (0 to stop)
+90341
+ The String:  90341
+ The number of decimal digits:           5
+ Please enter the value of i (0 to stop)
+4
+ The String:  4
+ The number of decimal digits:           1
+ Please enter the value of i (0 to stop)
+0
