@@ -18,7 +18,11 @@ DO
         PRINT *, "Now please enter the starting and ending points (m and k respectively)"
 		READ *, m,k
 		len = ShortestPath(A,n,m,k)
-        PRINT "(1X, 'The shortest path from', I5, '  to', I5, '  is: ', I5)", m, k, len
+        IF (len .ne. -1) THEN
+        	PRINT "(1X, 'The shortest path from', I5, '  to', I5, '  is: ', I5)", m, k, len
+        ELSE
+          	PRINT "(1X, 'There exists no path from', I5, '  to', I5)", m, k
+        END IF
     	DEALLOCATE(A)
 	ELSE 
     	PRINT *, "Allocation unsuccessful, please try again."
@@ -45,32 +49,36 @@ PRINT *, B
 !- now loop through and modify B until B is no longer changed
 different = .true.
 DO WHILE (different)
-	Bprev = B
+    Bprev = B
     !- For each node,
-	DO i= 1,n
+    DO i= 1,n
     	IF (i .ne. m) THEN
-        	!- then find the minimum value
+            !- then find the minimum value
             min = s
-			DO j=1,n
-        		!- Do not consider node loops or when a node is not connected to another
-				IF (j .ne. i .and. A(j,i) .ne. 0) THEN
-            		IF (min > B(j) + A(j, i)) THEN
+	    DO j=1,n
+        	!- Do not consider node loops or when a node is not connected to another
+		IF (j .ne. i .and. A(j,i) .ne. 0) THEN
+            	    IF (min > B(j) + A(j, i)) THEN
                     	min =  B(j) + A(j, i)
                     END IF
-				END IF
-			END DO
-        	!- Then update the node in B
-			B(i) = min
 		END IF
+	    END DO
+       	    !- Then update the node in B
+	    B(i) = min
+        END IF
     END DO
     PRINT *, B
     !- prove that B changed:
-	different = .false.
+    different = .false.
     DO i = 1,n
-		IF (B(i) .ne. Bprev(i))different = .true.
+        IF (B(i) .ne. Bprev(i))different = .true.
     END DO
 END DO
-ShortestPath = B(k)
+IF (B(k) .ne. s) THEN
+    ShortestPath = B(k)
+ELSE
+    ShortestPath = -1
+END IF
 
 END FUNCTION ShortestPath
 END PROGRAM A9Q2
